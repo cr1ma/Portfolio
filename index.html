@@ -16,8 +16,8 @@
     </section>
 </head>
 <body>
-  
-  <footer>
+  <header>
+    <!--Скрипт загрузки страницы-->
     <script>
         $('body').show();
         $('.version').text(NProgress.version);
@@ -29,9 +29,11 @@
         $("#b-inc").click(function() { NProgress.inc(); });
         $("#b-100").click(function() { NProgress.done(); });
     </script>
+
+    <!--Основные элементы-->
     <a href="" class="cr1ma">Cr1Ma</p>
     <a href="./nav.html"><img src="./img/inactive.svg" class="menu1" alt=""></a>
-  </footer>
+  </header>
 
   <main>
     <p class="Strip"> </p>
@@ -40,28 +42,28 @@
     <p class="tri">03</p>
   </main>
 
-<div class="video">
-    <iframe  src="https://player.vimeo.com/video/462481388" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+  <footer>
+     <!-- Скрипт кнопки вверх-->
+    <a class="up" id="move_up"></a>
+    <script type="text/javascript">  
+     $(function () {  
+     $(window).scroll(function () {  
+     if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);  
+     else $('a#move_up').fadeOut(400);  
+     });  
+     $('a#move_up').click(function () {  
+     $('body,html').animate({  
+     scrollTop: 0  
+     }, 800);  
+     return false;  
+     });  
+     });  
+    </script>
+    
+    
+    <!--Основные элементы-->
 
-<footer>
+  </footer>
 
-<a class="h-top-link" id="move_up"></a>
-<script type="text/javascript">  
-$(function () {  
-  $(window).scroll(function () {  
-  if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);  
-  else $('a#move_up').fadeOut(400);  
-  });  
-  $('a#move_up').click(function () {  
-  $('body,html').animate({  
-  scrollTop: 0  
-  }, 800);  
-  return false;  
-  });  
-});  
-</script>
-
-</footer>
 </body>
 </html>

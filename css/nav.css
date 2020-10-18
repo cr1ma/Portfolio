@@ -108,26 +108,23 @@ top: 50px;
 
 }
 
-
-
-
-
 .inst{
-position: absolute;
-width: 114px;
-height: 108px;
-left: 120px;
-top: 677px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 150%;
-text-align: right;
-text-decoration-line: underline;
-color: #000000;
-text-decoration: none;
+    position: absolute;
+    width: 114px;
+    height: 108px;
+    left: 120px;
+    top: 677px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
 }
+
 .tg{
     position: absolute;
     width: 114px;
@@ -143,36 +140,27 @@ text-decoration: none;
     text-decoration-line: underline;
     color: #000000;
     text-decoration: none;
-    }
+}
+
 .yt{
-        position: absolute;
-        width: 114px;
-        height: 108px;
-        left: 120px;
-        top: 743px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 150%;
-        text-align: right;
-        text-decoration-line: underline;
-        color: #000000;
-        text-decoration: none;
-        }
-
-
-
-
-
-
-
-
-
-
-
+    position: absolute;
+    width: 114px;
+    height: 108px;
+    left: 120px;
+    top: 743px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
+}
 
 /* Наведение*/
+
 .main:hover{
     color: #ff6d69;
 }
@@ -197,16 +185,17 @@ text-decoration: none;
 }
 
 
-
 .inst:hover{
-    color: #ac88bf  ;
+    color: #ac88bf;
+    ;
 }
 
 .tg:hover{
-    color: #0be7fb ;
+    color: #0be7fb;
+    ;
 }
 
 .yt:hover{
-    color: #ac0e28 ;
+    color:#ac0e28;
+    ;
 }
-
