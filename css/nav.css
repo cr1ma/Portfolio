@@ -1,0 +1,212 @@
+.list{
+ list-style: none;
+ text-decoration: none;   
+}
+
+.main{
+position: absolute;
+width: 96px;
+height: 144px;
+left: 138px;
+top: 230px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 150%;
+text-align: right;
+text-decoration-line: underline;
+color: #000000;
+text-decoration: none;
+}
+
+
+.work{
+    position: absolute;
+    width: 96px;
+    height: 144px;
+    left: 138px;
+    top: 265px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.about{
+    position: absolute;
+    width: 96px;
+    height: 35px;
+    left: 138px;
+    top: 300px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.xz{
+    position: absolute;
+    width: 96px;
+    height: 144px;
+    left: 135px;
+    top: 335px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.where{
+position: absolute;
+width: 57px;
+height: 144px;
+left: 307px;
+top: 207px;
+
+/* Text */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+
+color: #000000;
+
+opacity: 0.3;
+}
+
+
+
+.x{
+position: absolute;
+width: 19.5px;
+height: 19.5px;
+left: 195px;
+top: 50px;
+
+}
+
+
+
+
+
+.inst{
+position: absolute;
+width: 114px;
+height: 108px;
+left: 120px;
+top: 677px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 150%;
+text-align: right;
+text-decoration-line: underline;
+color: #000000;
+text-decoration: none;
+}
+.tg{
+    position: absolute;
+    width: 114px;
+    height: 108px;
+    left: 120px;
+    top: 710px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    text-decoration: none;
+    }
+.yt{
+        position: absolute;
+        width: 114px;
+        height: 108px;
+        left: 120px;
+        top: 743px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #000000;
+        text-decoration: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Наведение*/
+.main:hover{
+    color: #ff6d69;
+}
+
+.work:hover{
+    color:#43b5a0;
+}
+
+.about:hover{
+    color:#895423;
+    ;
+}
+
+.xz:hover{
+    color: #ef0195;
+}
+
+
+.x:hover{
+    transform: rotate(180deg); 
+    transition: all 0.3s ease;  
+}
+
+
+
+.inst:hover{
+    color: #ac88bf  ;
+}
+
+.tg:hover{
+    color: #0be7fb ;
+}
+
+.yt:hover{
+    color: #ac0e28 ;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cr1Ma</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <section>
+        <link href='support/style.css' rel='stylesheet' />
+        <link href='nprogress.css' rel='stylesheet' />
+        <meta name="viewport" content="width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,400italic' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src='nprogress.js'></script>
+        <script>if(location.hostname.match(/ricostacruz\.com$/)){var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-20473929-1"]),_gaq.push(["_trackPageview"]),function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}()}</script>
+    </section>
+</head>
+<body>
+  
+  <footer>
+    <script>
+        $('body').show();
+        $('.version').text(NProgress.version);
+        NProgress.start();
+        setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1000);
+    
+        $("#b-0").click(function() { NProgress.start(); });
+        $("#b-40").click(function() { NProgress.set(0.4); });
+        $("#b-inc").click(function() { NProgress.inc(); });
+        $("#b-100").click(function() { NProgress.done(); });
+    </script>
+    <a href="" class="cr1ma">Cr1Ma</p>
+    <a href="./nav.html"><img src="./img/inactive.svg" class="menu1" alt=""></a>
+  </footer>
+
+  <main>
+    <p class="Strip"> </p>
+    <p class="Glavnaya">Главная</p>
+    <p class="dva">02</p>
+    <p class="tri">03</p>
+  </main>
+
+<div class="video">
+    <iframe  src="https://player.vimeo.com/video/462481388" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+<footer>
+
+<a class="h-top-link" id="move_up"></a>
+<script type="text/javascript">  
+$(function () {  
+  $(window).scroll(function () {  
+  if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);  
+  else $('a#move_up').fadeOut(400);  
+  });  
+  $('a#move_up').click(function () {  
+  $('body,html').animate({  
+  scrollTop: 0  
+  }, 800);  
+  return false;  
+  });  
+});  
+</script>
+
+</footer>
+</body>
+</html>
